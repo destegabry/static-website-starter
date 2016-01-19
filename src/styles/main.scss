@@ -1,0 +1,37 @@
+// bower:scss
+@import "bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "neat/app/assets/stylesheets/_neat.scss";
+// endbower
+
+@import 'variables';
+@import 'mixins';
+
+html {
+  @include radial-gradient(darken($background-color-main, 5%), darken($background-color-main, 15%));
+  color: $text-color-main;
+  font-family: $lucida-grande;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @include outer-container;
+  @include padding(10px);
+}
+
+.container {
+  @include background($background-color-main);
+  @include border-top-radius(10px);
+  @include border-bottom-radius(10px);
+  @include margin($spacing-base auto);
+  @include padding($spacing-base 2*$spacing-base);
+  @include span-columns(12 of 12);
+  box-shadow: 0 0 $spacing-base -($spacing-base/2) #888888;
+}
+
+footer {
+  @include position(absolute, auto 0 0 0);
+  @include padding($spacing-base/2);
+  text-align: center;
+  font-size: .8em;
+}
