@@ -1,20 +1,20 @@
-# Static website #
+# Static website starter project #
 
 ## Tecnologie utilizzate ##
 
 - Scaffolding:
-  - [Bower](http://bower.io)
-  - [Grunt](http://gruntjs.com/)
+    - [Bower](http://bower.io)
+    - [Grunt](http://gruntjs.com/)
 
 - Javascript 
-  - [ES5 Shim](https://github.com/es-shims/es5-shim)
-  - [Modernizr](http://modernizr.com)
-  - [jQuery](https://jquery.com) (v1.12)
+    - [ES5 Shim](https://github.com/es-shims/es5-shim)
+    - [Modernizr](http://modernizr.com)
+    - [jQuery](https://jquery.com) (v1.12)
 
 - CSS3 
-  - [SASS](http://sass-lang.com)
-    ([Bourbon](http://bourbon.io),
-    [Neat](http://neat.bourbon.io))
+    - [SASS](http://sass-lang.com) with
+        - ([Bourbon](http://bourbon.io) 
+        - [Neat](http://neat.bourbon.io))
 
 ## Struttura directory ##
 
